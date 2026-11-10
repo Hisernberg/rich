@@ -1167,7 +1167,16 @@ class Text(JupyterMixin):
         return new_lines
 
     def right_crop(self, amount: int = 1) -> None:
-        """Remove a number of characters from the end of the text."""
+        """Remove a number of characters from the end of the text.
+
+        Args:
+            amount (int): Number of characters to remove. Values less than
+                or equal to zero leave the text unchanged; values larger
+                than the text length remove everything.
+        """
+        amount = max(0, min(amount, len(self.plain)))
+        if not amount:
+            return
         max_offset = len(self.plain) - amount
         _Span = Span
         self._spans[:] = [
