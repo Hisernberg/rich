@@ -2,7 +2,7 @@
 
 [![Downloads](https://pepy.tech/badge/rich/month)](https://pepy.tech/project/rich)
 [![codecov](https://img.shields.io/codecov/c/github/Textualize/rich?label=codecov&logo=codecov)](https://codecov.io/gh/Textualize/rich)
-[![Rich blog](https://img.shields.io/badge/blog-rich%20news-yellowgreen)](https://www.willmcgugan.com/tag/rich/)
+[![Rich blog](https://img.shields.io/badge/blog-rich%20news-yellowgreen)](https://willmcgugan.com/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/willmcgugan.svg?style=social)](https://twitter.com/willmcgugan)
 
 ![Logo](https://github.com/textualize/rich/raw/main/imgs/logo.svg)
@@ -35,7 +35,7 @@ The [Rich API](https://rich.readthedocs.io/en/latest/) makes it easy to add colo
 
 For a video introduction to Rich see [calmcode.io](https://calmcode.io/rich/introduction.html) by [@fishnets88](https://twitter.com/fishnets88).
 
-See what [people are saying about Rich](https://www.willmcgugan.com/blog/pages/post/rich-tweets/).
+See what people are saying about Rich on [willmcgugan.com](https://willmcgugan.com/).
 
 ## Compatibility
 
